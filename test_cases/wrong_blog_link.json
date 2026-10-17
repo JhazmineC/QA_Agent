@@ -1,0 +1,9 @@
+{
+  "content_id": "EP101",
+  "platform": "webflow",
+  "text": "Northwind Silicon talks inference and power per rack.",
+  "links": [
+    {"text": "Watch the full conversation", "url": "https://signalpath.example/episodes/northwind-inference"},
+    {"text": "Read the Northwind announcement", "url": "https://acme.example/news/storage-update"}
+  ]
+}
