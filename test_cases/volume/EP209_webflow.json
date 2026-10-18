@@ -1,5 +1,5 @@
 {
-  "text": "Chloe Martin and Ethan Nguyen of Horizon Labs discuss AMD and DisplayPort in data centers.",
+  "text": "Chloe Martin and Ethan Nguyen of Horizon Labs discuss DDR and HPE in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -11,7 +11,7 @@
     }
   ],
   "assets": [
-    "/final/EP209/thumbnail_v3.png"
+    "/archive/EP209/thumbnail_v1.png"
   ],
   "content_id": "EP209",
   "platform": "webflow"

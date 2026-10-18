@@ -1,5 +1,5 @@
 {
-  "text": "Chloe Martin and Ethan Nguyen of Horizon Labs discuss NVMe and RAID in data centers.",
+  "text": "Chloe Martin and Ethan Nguyen of Horizo Labs discuss CXL and SATA in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -11,7 +11,7 @@
     }
   ],
   "assets": [
-    "/final/EP225/thumbnail_v3.png"
+    "/archive/EP225/thumbnail_v1.png"
   ],
   "content_id": "EP225",
   "platform": "webflow"

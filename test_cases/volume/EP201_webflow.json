@@ -10,9 +10,6 @@
       "url": "https://northwind.example/news/ep201"
     }
   ],
-  "assets": [
-    "/final/EP201/thumbnail_v3.png"
-  ],
   "content_id": "EP201",
   "platform": "webflow"
 }

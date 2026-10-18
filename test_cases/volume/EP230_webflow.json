@@ -1,5 +1,5 @@
 {
-  "text": "Mei Chen and Jonah Pierce of Solace Storage discuss Ethernet and CXL in data centers.",
+  "text": "Mei Chen and Jonah Pierce of Solace Storage discuss Ethernt and SATA in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -11,7 +11,7 @@
     }
   ],
   "assets": [
-    "/final/EP230/thumbnail_v3.png"
+    "/archive/EP230/thumbnail_v1.png"
   ],
   "content_id": "EP230",
   "platform": "webflow"

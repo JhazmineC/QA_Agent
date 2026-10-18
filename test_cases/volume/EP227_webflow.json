@@ -1,5 +1,5 @@
 {
-  "text": "Dana Whitfield and Marcus Lee of Northwind Silicon discuss HBM and HDMI in data centers.",
+  "text": "Dana Whitfield and Marcus Lee of Northwind Silicon discuss InfiniBand and AMD in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -11,7 +11,7 @@
     }
   ],
   "assets": [
-    "/final/EP227/thumbnail_v3.png"
+    "/archive/EP227/thumbnail_v1.png"
   ],
   "content_id": "EP227",
   "platform": "webflow"

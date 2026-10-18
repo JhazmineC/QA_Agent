@@ -1,5 +1,5 @@
 {
-  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss Ethernet and DVI in data centers.",
+  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss VGA and DDR in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -11,7 +11,7 @@
     }
   ],
   "assets": [
-    "/archive/EP255/thumbnail_v1.png"
+    "/final/EP255/thumbnail_v3.png"
   ],
   "content_id": "EP255",
   "platform": "webflow"

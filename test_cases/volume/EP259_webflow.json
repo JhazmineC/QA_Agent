@@ -1,5 +1,5 @@
 {
-  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss RAID and DisplayPort in data centers.",
+  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss Ethernet and CXL in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -11,7 +11,7 @@
     }
   ],
   "assets": [
-    "/archive/EP259/thumbnail_v1.png"
+    "/final/EP259/thumbnail_v3.png"
   ],
   "content_id": "EP259",
   "platform": "webflow"

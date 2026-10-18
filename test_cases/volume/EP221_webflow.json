@@ -1,5 +1,5 @@
 {
-  "text": "Mia Chen and Lucas Silva of Vertex Solutions discuss Wi-Fi and DDR in data centers.",
+  "text": "Mia Chen and Lucas Silva of Vertex Solutions discuss Pcie and HPE in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -7,11 +7,11 @@
     },
     {
       "text": "Read the Vertex Solutions announcement",
-      "url": "https://vertexsolutions.example/news/ep221"
+      "url": "https://vantagethermal.example/news/old-post"
     }
   ],
   "assets": [
-    "/archive/EP221/thumbnail_v1.png"
+    "/final/EP221/thumbnail_v3.png"
   ],
   "content_id": "EP221",
   "platform": "webflow"

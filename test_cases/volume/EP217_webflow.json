@@ -1,5 +1,5 @@
 {
-  "text": "Lily Johnson and Aiden Brown of Stratosphere Inc discuss Thunderbolt and Ethernet in data centers.",
+  "text": "Lily Johnson and Aiden Brown of Stratosphere Inc discuss WiFi and DDR in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -7,11 +7,11 @@
     },
     {
       "text": "Read the Stratosphere Inc announcement",
-      "url": "https://globalsolutions.example/news/old-post"
+      "url": "https://stratosphereinc.example/news/ep217"
     }
   ],
   "assets": [
-    "/final/EP217/thumbnail_v3.png"
+    "/archive/EP217/thumbnail_v1.png"
   ],
   "content_id": "EP217",
   "platform": "webflow"

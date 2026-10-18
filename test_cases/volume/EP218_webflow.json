@@ -1,5 +1,5 @@
 {
-  "text": "Dana Whitfield and Marcus Lee of Northwin Silicon discuss HDMI and AMD in data centers.",
+  "text": "Dana Whitfield and Marcus Lee of Northwind Silicon discuss PCIe and Ethernet in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -7,11 +7,11 @@
     },
     {
       "text": "Read the Northwind Silicon announcement",
-      "url": "https://northwind.example/news/ep218"
+      "url": "https://globalsolutions.example/news/old-post"
     }
   ],
   "assets": [
-    "/final/EP218/thumbnail_v3.png"
+    "/archive/EP218/thumbnail_v1.png"
   ],
   "content_id": "EP218",
   "platform": "webflow"

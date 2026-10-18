@@ -1,5 +1,5 @@
 {
-  "text": "Mia Chen and Lucas Silva of Vertex Solutions discuss VGA and HDMI in data centers.",
+  "text": "Mia Chen and Lucas Silva of Vertex Solutions discuss HDMI and DDR in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -11,7 +11,7 @@
     }
   ],
   "assets": [
-    "/archive/EP249/thumbnail_v1.png"
+    "/final/EP249/thumbnail_v3.png"
   ],
   "content_id": "EP249",
   "platform": "webflow"

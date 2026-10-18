@@ -39,10 +39,12 @@ def check_blog_links(post, data):
 def check_linkedin_tags(post, data):
     """Failure 2: wrong LinkedIn account tagged."""
     findings = []
+    if not post.get("tagged_urls"):
+        return findings  # missing tags are reported by check_completeness
     roster = data["roster"]
     tagged = set(post.get("tagged_urls", []))
     for _, person in roster.iterrows():
-        if person["name"] not in post["text"]:
+        if person["name"] not in post.get("text", ""):  # changed
             continue
         if person["linkedin_url"] in tagged:
             findings.append(result("Pass", "LinkedIn", f'{person["name"]} is tagged with the verified profile.'))
@@ -63,10 +65,11 @@ def check_x_handles(post, data):
     """Failure 3: X handle not used."""
     findings = []
     for _, person in data["roster"].iterrows():
-        mentioned = person["name"] in post["text"] or person["x_handle"] in post["text"]
+        text = post.get("text", "")  # new
+        mentioned = person["name"] in text or person["x_handle"] in text  # changed
         if not mentioned:
             continue
-        if person["x_handle"] in post["text"]:
+        if person["x_handle"] in text:  # changed
             findings.append(result("Pass", "X", f'{person["name"]} uses the handle {person["x_handle"]}.'))
         else:
             findings.append(result(
@@ -96,7 +99,7 @@ def check_spelling(post, data):
     """Failure 5: industry terms not spelled to standard."""
     findings = []
     approved = list(data["terms"]["approved"])
-    for word in post["text"].replace(",", " ").replace(".", " ").split():
+    for word in post.get("text", "").replace(",", " ").replace(".", " ").split():  # changed
         clean = word.strip("@#()\"'")
         for term in approved:
             close = clean.lower() == term.lower() or fuzz.ratio(clean.lower(), term.lower()) >= 85
@@ -111,7 +114,7 @@ def check_names(post, data):
     findings = []
     names = list(data["roster"]["name"])
     valid = set(names)
-    words = post["text"].replace(",", " ").replace(".", " ").split()
+    words = post.get("text", "").replace(",", " ").replace(".", " ").split()  # changed
     for name in names:
         size = len(name.split())
         for i in range(len(words) - size + 1):
@@ -125,4 +128,51 @@ def check_names(post, data):
                 findings.append(result("Flag", post["platform"].title(),
                                        f'"{window}" looks like a misspelling of "{name}".',
                                        f'Change "{window}" to "{name}".'))
+    return findings
+
+# Required fields represent the current prototype's QA standards.
+# Webflow posts must include text, links, and assets.
+# LinkedIn posts must include text and verified tag information.
+# X posts must include text.
+#
+# These requirements should be reviewed before deployment,
+# because certain publishing formats may not require every field.
+REQUIRED = {
+    "webflow": ["content_id", "text", "links", "assets"],
+    "linkedin": ["content_id", "text", "tagged_urls"],
+    "x": ["content_id", "text"],
+}
+
+
+
+def check_completeness(post, data):
+    """Check for missing required information and unknown content IDs."""
+    findings = []
+    platform = post.get("platform", "unknown")
+
+    # Check required fields for the publishing platform.
+    for field in REQUIRED.get(platform, ["content_id", "text"]):
+        if not post.get(field):
+            findings.append(result(
+                "Escalate",
+                platform.title(),
+                f'Missing "{field}", so this post cannot be fully checked.',
+                f"Add the {field} before publishing."
+            ))
+
+    # Check whether the content ID exists in approved reference data.
+    content_id = post.get("content_id")
+
+    if content_id:
+        known_ids = set(data["links"]["content_id"])
+        known_ids.update(data["assets"]["content_id"])
+
+        if content_id not in known_ids:
+            findings.append(result(
+                "Escalate",
+                platform.title(),
+                f"{content_id} was not found in the approved reference data.",
+                "Verify the content ID and its approved reference records."
+            ))
+
     return findings

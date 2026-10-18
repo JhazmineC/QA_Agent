@@ -1,5 +1,5 @@
 {
-  "text": "Zara Malik and Caleb Turner of Meridian Fabric discuss PCIe and NVMe in data centers.",
+  "text": "Zara Malik and Caleb Turner of Meridia Fabric discuss USB and PCIe in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -11,7 +11,7 @@
     }
   ],
   "assets": [
-    "/final/EP250/thumbnail_v3.png"
+    "/archive/EP250/thumbnail_v1.png"
   ],
   "content_id": "EP250",
   "platform": "webflow"

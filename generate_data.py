@@ -93,11 +93,16 @@ pd.DataFrame(links).to_csv(DATA / "approved_links.csv", index=False)
 pd.DataFrame(assets).to_csv(DATA / "approved_assets.csv", index=False)
 pd.DataFrame({"approved": list(TECH_TERMS)}).to_csv(DATA / "terms.csv", index=False)
 
-# 2. Posts, with mistakes planted in about 20 percent
+# 2. Posts: clean, single-error, multi-error, and missing-information
 ERRORS = {
     "webflow": ["wrong_link", "archive_file", "spelling", "company_name"],
     "linkedin": ["wrong_tag", "spelling", "company_name"],
     "x": ["missing_handle", "spelling"],
+}
+REMOVABLE = {
+    "webflow": ["text", "links", "assets", "content_id"],
+    "linkedin": ["text", "tagged_urls", "content_id"],
+    "x": ["text", "content_id"],
 }
 roster_df = pd.DataFrame(roster)
 url = dict(zip(roster_df["name"], roster_df["linkedin_url"]))
@@ -108,9 +113,18 @@ for content_id, company, short, people in episodes:
     a, b = people
     t1, t2 = random.sample(list(TECH_TERMS), 2)
     for platform in ["webflow", "linkedin", "x"]:
-        error = random.choice(ERRORS[platform]) if random.random() < 0.2 else "none"
-        terms = [TECH_TERMS[t1] if error == "spelling" else t1, t2]
-        shown_company = misspell(company) if error == "company_name" else company
+        roll = random.random()
+        if roll < 0.12:
+            scenario, errors = "multi", random.sample(ERRORS[platform], 2)
+        elif roll < 0.30:
+            scenario, errors = "single", [random.choice(ERRORS[platform])]
+        elif roll < 0.38:
+            scenario, errors = "missing", ["missing_info"]
+        else:
+            scenario, errors = "clean", []
+
+        terms = [TECH_TERMS[t1] if "spelling" in errors else t1, t2]
+        shown_company = misspell(company) if "company_name" in errors else company
 
         if platform == "webflow":
             post = {"text": f"{a} and {b} of {shown_company} discuss {terms[0]} and {terms[1]} in data centers.",
@@ -119,26 +133,35 @@ for content_id, company, short, people in episodes:
                               {"text": f"Read the {company} announcement",
                                "url": f"https://{short}.example/news/{content_id.lower()}"}],
                     "assets": [f"/final/{content_id}/thumbnail_v3.png"]}
-            if error == "wrong_link":
+            if "wrong_link" in errors:
                 post["links"][1]["url"] = f"https://{random.choice(COMPANIES)[1]}.example/news/old-post"
-            if error == "archive_file":
+            if "archive_file" in errors:
                 post["assets"] = [f"/archive/{content_id}/thumbnail_v1.png"]
         elif platform == "linkedin":
             post = {"text": f"{a} and {b} of {shown_company} on {terms[0]} and {terms[1]}.",
                     "tagged_urls": [url[a], url[b], url[company]]}
-            if error == "wrong_tag":
+            if "wrong_tag" in errors:
                 post["tagged_urls"][1] = f"linkedin.com/in/{slug(b)}-impostor"
         else:
             names = [xh[a], xh[b], xh[company]]
-            if error == "missing_handle":
+            if "missing_handle" in errors:
                 names[1] = b
             post = {"text": f"{names[0]} and {names[1]} of {names[2]} on {terms[0]} and {terms[1]}."}
 
         post.update({"content_id": content_id, "platform": platform})
+        if scenario == "missing":
+            field = random.choice(REMOVABLE[platform])
+            if field == "content_id" and random.random() < 0.5:
+                post["content_id"] = "EP999"  # an ID that is not on any approved list
+            else:
+                post.pop(field)
+
         post_id = f"{content_id}_{platform}"
         (OUT / f"{post_id}.json").write_text(json.dumps(post, indent=2))
-        key.append({"post_id": post_id, "platform": platform, "planted_error": error})
+        key.append({"post_id": post_id, "platform": platform, "scenario": scenario,
+                    "planted_errors": ";".join(errors)})
 
 pd.DataFrame(key).to_csv(OUT / "answer_key.csv", index=False)
+counts = pd.DataFrame(key)["scenario"].value_counts()
 print(f"Created {len(roster)} roster rows, {len(episodes)} episodes, {len(key)} posts.")
-print(f"Planted mistakes in {sum(k['planted_error'] != 'none' for k in key)} posts.")
+print(counts.to_string())

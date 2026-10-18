@@ -1,5 +1,5 @@
 {
-  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss NVIDIA and HPE in data centers.",
+  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss USB and NVMe in data centers.",
   "links": [
     {
       "text": "Watch the full conversation",
@@ -11,7 +11,7 @@
     }
   ],
   "assets": [
-    "/archive/EP248/thumbnail_v1.png"
+    "/final/EP248/thumbnail_v3.png"
   ],
   "content_id": "EP248",
   "platform": "webflow"
