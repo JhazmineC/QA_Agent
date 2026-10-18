@@ -5,3 +5,4 @@ __pycache__/
 .vscode/settings.json
 volume_test_backup.py
 volume_test_R2.py
+generate_data copy.py
