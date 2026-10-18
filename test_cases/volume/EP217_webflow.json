@@ -1,0 +1,18 @@
+{
+  "text": "Lily Johnson and Aiden Brown of Stratosphere Inc discuss Thunderbolt and Ethernet in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep217"
+    },
+    {
+      "text": "Read the Stratosphere Inc announcement",
+      "url": "https://globalsolutions.example/news/old-post"
+    }
+  ],
+  "assets": [
+    "/final/EP217/thumbnail_v3.png"
+  ],
+  "content_id": "EP217",
+  "platform": "webflow"
+}

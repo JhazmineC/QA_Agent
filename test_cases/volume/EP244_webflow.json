@@ -1,0 +1,18 @@
+{
+  "text": "Sofia Rossi and Liam O'Connor of Aurora Tech discuss AMD and USB in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep244"
+    },
+    {
+      "text": "Read the Aurora Tech announcement",
+      "url": "https://auroratech.example/news/ep244"
+    }
+  ],
+  "assets": [
+    "/final/EP244/thumbnail_v3.png"
+  ],
+  "content_id": "EP244",
+  "platform": "webflow"
+}

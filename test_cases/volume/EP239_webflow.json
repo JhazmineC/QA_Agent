@@ -1,0 +1,18 @@
+{
+  "text": "Amara Nwosu and Felix Hartmann of Brightwater AI discuss DDR and Wi-Fi in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep239"
+    },
+    {
+      "text": "Read the Brightwater AI announcement",
+      "url": "https://globalsolutions.example/news/old-post"
+    }
+  ],
+  "assets": [
+    "/final/EP239/thumbnail_v3.png"
+  ],
+  "content_id": "EP239",
+  "platform": "webflow"
+}

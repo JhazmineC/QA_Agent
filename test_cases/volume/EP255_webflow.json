@@ -1,0 +1,18 @@
+{
+  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss Ethernet and DVI in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep255"
+    },
+    {
+      "text": "Read the Global Solutions Ltd announcement",
+      "url": "https://globalsolutions.example/news/ep255"
+    }
+  ],
+  "assets": [
+    "/archive/EP255/thumbnail_v1.png"
+  ],
+  "content_id": "EP255",
+  "platform": "webflow"
+}

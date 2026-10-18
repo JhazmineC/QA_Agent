@@ -1,0 +1,18 @@
+{
+  "text": "Nora Delgado and Isaac Moreno of Vantage Thermal discuss USB and HDMI in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep203"
+    },
+    {
+      "text": "Read the Vantage Thermal announcement",
+      "url": "https://vantagethermal.example/news/ep203"
+    }
+  ],
+  "assets": [
+    "/final/EP203/thumbnail_v3.png"
+  ],
+  "content_id": "EP203",
+  "platform": "webflow"
+}

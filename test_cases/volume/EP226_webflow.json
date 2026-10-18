@@ -1,0 +1,18 @@
+{
+  "text": "Hana Takeda and Owen Fletcher of Quarry Labs discuss PCIe and SATA in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep226"
+    },
+    {
+      "text": "Read the Quarry Labs announcement",
+      "url": "https://quarrylabs.example/news/ep226"
+    }
+  ],
+  "assets": [
+    "/final/EP226/thumbnail_v3.png"
+  ],
+  "content_id": "EP226",
+  "platform": "webflow"
+}

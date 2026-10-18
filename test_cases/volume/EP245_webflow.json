@@ -1,0 +1,18 @@
+{
+  "text": "Mia Chen and Lucas Silva of Vertex Solutions discuss USB and DisplayPort in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep245"
+    },
+    {
+      "text": "Read the Vertex Solutions announcement",
+      "url": "https://vertexsolutions.example/news/ep245"
+    }
+  ],
+  "assets": [
+    "/final/EP245/thumbnail_v3.png"
+  ],
+  "content_id": "EP245",
+  "platform": "webflow"
+}

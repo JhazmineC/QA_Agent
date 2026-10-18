@@ -1,0 +1,18 @@
+{
+  "text": "Elena Petrova and Ravi Kapoor of Summit Dynamics discuss PCIe and HDMI in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep229"
+    },
+    {
+      "text": "Read the Summit Dynamics announcement",
+      "url": "https://summitdynamics.example/news/ep229"
+    }
+  ],
+  "assets": [
+    "/final/EP229/thumbnail_v3.png"
+  ],
+  "content_id": "EP229",
+  "platform": "webflow"
+}

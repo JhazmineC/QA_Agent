@@ -1,0 +1,18 @@
+{
+  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss VGA and RAID in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep208"
+    },
+    {
+      "text": "Read the Global Solutions Ltd announcement",
+      "url": "https://globalsolutions.example/news/ep208"
+    }
+  ],
+  "assets": [
+    "/final/EP208/thumbnail_v3.png"
+  ],
+  "content_id": "EP208",
+  "platform": "webflow"
+}

@@ -1,0 +1,18 @@
+{
+  "text": "Mei Chen and Jonah Pierce of Solace Storag discuss DDR and PCIe in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep234"
+    },
+    {
+      "text": "Read the Solace Storage announcement",
+      "url": "https://solacestorage.example/news/ep234"
+    }
+  ],
+  "assets": [
+    "/final/EP234/thumbnail_v3.png"
+  ],
+  "content_id": "EP234",
+  "platform": "webflow"
+}

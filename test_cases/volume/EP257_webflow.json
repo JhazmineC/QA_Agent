@@ -1,0 +1,18 @@
+{
+  "text": "Nora Delgado and Isaac Moreno of Vantage Thermal discuss HDMI and DDR in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep257"
+    },
+    {
+      "text": "Read the Vantage Thermal announcement",
+      "url": "https://vantagethermal.example/news/ep257"
+    }
+  ],
+  "assets": [
+    "/final/EP257/thumbnail_v3.png"
+  ],
+  "content_id": "EP257",
+  "platform": "webflow"
+}

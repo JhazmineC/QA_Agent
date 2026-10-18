@@ -1,0 +1,18 @@
+{
+  "text": "Grace Okafor and Ethan Brooks of Lumen Grid Systems discuss USB and DisplayPort in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep214"
+    },
+    {
+      "text": "Read the Lumen Grid Systems announcement",
+      "url": "https://lumengrid.example/news/ep214"
+    }
+  ],
+  "assets": [
+    "/final/EP214/thumbnail_v3.png"
+  ],
+  "content_id": "EP214",
+  "platform": "webflow"
+}

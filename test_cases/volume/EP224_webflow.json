@@ -1,0 +1,18 @@
+{
+  "text": "Sofia Rossi and Liam O'Connor of Aurora Tech discuss Ethernet and InfiniBand in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep224"
+    },
+    {
+      "text": "Read the Aurora Tech announcement",
+      "url": "https://auroratech.example/news/ep224"
+    }
+  ],
+  "assets": [
+    "/final/EP224/thumbnail_v3.png"
+  ],
+  "content_id": "EP224",
+  "platform": "webflow"
+}

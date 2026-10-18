@@ -1,0 +1,18 @@
+{
+  "text": "Amara Nwosu and Felix Hartmann of Brightwater AI discuss AMD and NVMe in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep240"
+    },
+    {
+      "text": "Read the Brightwater AI announcement",
+      "url": "https://brightwater.example/news/ep240"
+    }
+  ],
+  "assets": [
+    "/final/EP240/thumbnail_v3.png"
+  ],
+  "content_id": "EP240",
+  "platform": "webflow"
+}

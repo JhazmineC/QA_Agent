@@ -1,0 +1,18 @@
+{
+  "text": "Olivia Martinez and James Anderson of Creative Minds Co discuss Wi-Fi and RAID in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep246"
+    },
+    {
+      "text": "Read the Creative Minds Co announcement",
+      "url": "https://creativeminds.example/news/ep246"
+    }
+  ],
+  "assets": [
+    "/final/EP246/thumbnail_v3.png"
+  ],
+  "content_id": "EP246",
+  "platform": "webflow"
+}

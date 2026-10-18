@@ -1,0 +1,18 @@
+{
+  "text": "Nora Delgado and Isaac Moreno of Vantage Thermal discuss DisplayPort and HBM in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep215"
+    },
+    {
+      "text": "Read the Vantage Thermal announcement",
+      "url": "https://vantagethermal.example/news/ep215"
+    }
+  ],
+  "assets": [
+    "/archive/EP215/thumbnail_v1.png"
+  ],
+  "content_id": "EP215",
+  "platform": "webflow"
+}

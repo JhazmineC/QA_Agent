@@ -1,0 +1,18 @@
+{
+  "text": "Nora Delgado and Isaac Moreno of Vantage Thermal discuss USB and InfiniBand in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep223"
+    },
+    {
+      "text": "Read the Vantage Thermal announcement",
+      "url": "https://vantagethermal.example/news/ep223"
+    }
+  ],
+  "assets": [
+    "/final/EP223/thumbnail_v3.png"
+  ],
+  "content_id": "EP223",
+  "platform": "webflow"
+}

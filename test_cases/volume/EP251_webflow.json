@@ -1,0 +1,18 @@
+{
+  "text": "Lily Johnson and Aiden Brown of Stratosphere Inc discuss DVI and AMD in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep251"
+    },
+    {
+      "text": "Read the Stratosphere Inc announcement",
+      "url": "https://stratosphereinc.example/news/ep251"
+    }
+  ],
+  "assets": [
+    "/final/EP251/thumbnail_v3.png"
+  ],
+  "content_id": "EP251",
+  "platform": "webflow"
+}

@@ -1,0 +1,18 @@
+{
+  "text": "Zara Malik and Caleb Turner of Meridian Fabric discuss PCIe and HPE in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep258"
+    },
+    {
+      "text": "Read the Meridian Fabric announcement",
+      "url": "https://meridianfabric.example/news/ep258"
+    }
+  ],
+  "assets": [
+    "/final/EP258/thumbnail_v3.png"
+  ],
+  "content_id": "EP258",
+  "platform": "webflow"
+}

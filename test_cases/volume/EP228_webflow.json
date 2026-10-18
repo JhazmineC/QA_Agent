@@ -1,0 +1,18 @@
+{
+  "text": "Liam O'Brien and Sofia Castellano of Cobalt Ridge Networks discuss Ethernet and Wi-Fi in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep228"
+    },
+    {
+      "text": "Read the Cobalt Ridge Networks announcement",
+      "url": "https://cobaltridge.example/news/ep228"
+    }
+  ],
+  "assets": [
+    "/final/EP228/thumbnail_v3.png"
+  ],
+  "content_id": "EP228",
+  "platform": "webflow"
+}

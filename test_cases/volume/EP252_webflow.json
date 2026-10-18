@@ -1,0 +1,18 @@
+{
+  "text": "Amara Nwosu and Felix Hartmann of Brightwater AI discuss Raid and NVIDIA in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep252"
+    },
+    {
+      "text": "Read the Brightwater AI announcement",
+      "url": "https://brightwater.example/news/ep252"
+    }
+  ],
+  "assets": [
+    "/final/EP252/thumbnail_v3.png"
+  ],
+  "content_id": "EP252",
+  "platform": "webflow"
+}

@@ -1,0 +1,18 @@
+{
+  "text": "Chloe Martin and Ethan Nguyen of Horizon Labs discuss AMD and DisplayPort in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep209"
+    },
+    {
+      "text": "Read the Horizon Labs announcement",
+      "url": "https://horizonlabs.example/news/ep209"
+    }
+  ],
+  "assets": [
+    "/final/EP209/thumbnail_v3.png"
+  ],
+  "content_id": "EP209",
+  "platform": "webflow"
+}

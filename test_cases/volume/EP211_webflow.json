@@ -1,0 +1,18 @@
+{
+  "text": "Sarah Johnson and David Brown of Tech Innovations Inc discuss DVI and SAS in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep211"
+    },
+    {
+      "text": "Read the Tech Innovations Inc announcement",
+      "url": "https://techinnovations.example/news/ep211"
+    }
+  ],
+  "assets": [
+    "/final/EP211/thumbnail_v3.png"
+  ],
+  "content_id": "EP211",
+  "platform": "webflow"
+}

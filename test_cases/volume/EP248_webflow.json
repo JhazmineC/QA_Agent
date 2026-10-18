@@ -1,0 +1,18 @@
+{
+  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss NVIDIA and HPE in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep248"
+    },
+    {
+      "text": "Read the Global Solutions Ltd announcement",
+      "url": "https://globalsolutions.example/news/ep248"
+    }
+  ],
+  "assets": [
+    "/archive/EP248/thumbnail_v1.png"
+  ],
+  "content_id": "EP248",
+  "platform": "webflow"
+}

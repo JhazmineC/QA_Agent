@@ -1,0 +1,18 @@
+{
+  "text": "Elena Petrova and Ravi Kapoor of Summit Dynamics discuss AMD and CXL in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep210"
+    },
+    {
+      "text": "Read the Summit Dynamics announcement",
+      "url": "https://summitdynamics.example/news/ep210"
+    }
+  ],
+  "assets": [
+    "/final/EP210/thumbnail_v3.png"
+  ],
+  "content_id": "EP210",
+  "platform": "webflow"
+}

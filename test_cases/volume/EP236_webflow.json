@@ -1,0 +1,18 @@
+{
+  "text": "Emily Davis and Michael Wilson of Global Solutions Ltd discuss Ethernet and SATA in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep236"
+    },
+    {
+      "text": "Read the Global Solutions Ltd announcement",
+      "url": "https://globalsolutions.example/news/ep236"
+    }
+  ],
+  "assets": [
+    "/archive/EP236/thumbnail_v1.png"
+  ],
+  "content_id": "EP236",
+  "platform": "webflow"
+}

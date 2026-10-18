@@ -4,13 +4,14 @@ from rapidfuzz import fuzz
 DATA = Path(__file__).parent / "data"
 
 
-def load_data():
-    """Load the source-of-truth lists the agent checks against."""
+def load_data(folder=DATA):
+    """Load the source-of-truth lists. Defaults to data/, or pass another folder."""
+    folder = Path(folder)
     return {
-        "roster": pd.read_csv(DATA / "roster.csv"),
-        "links": pd.read_csv(DATA / "approved_links.csv"),
-        "assets": pd.read_csv(DATA / "approved_assets.csv"),
-        "terms": pd.read_csv(DATA / "terms.csv"),
+        "roster": pd.read_csv(folder / "roster.csv"),
+        "links": pd.read_csv(folder / "approved_links.csv"),
+        "assets": pd.read_csv(folder / "approved_assets.csv"),
+        "terms": pd.read_csv(folder / "terms.csv"),
     }
 
 
@@ -103,4 +104,25 @@ def check_spelling(post, data):
                 findings.append(result("Flag", post["platform"].title(),
                                        f'"{clean}" should be spelled "{term}".',
                                        f'Change "{clean}" to "{term}".'))
+    return findings
+
+def check_names(post, data):
+    """Catch misspelled speaker and company names, like 'Halcyon Comput'."""
+    findings = []
+    names = list(data["roster"]["name"])
+    valid = set(names)
+    words = post["text"].replace(",", " ").replace(".", " ").split()
+    for name in names:
+        size = len(name.split())
+        for i in range(len(words) - size + 1):
+            chunk = words[i:i + size]
+            if any(w.startswith("@") for w in chunk):
+                continue  # handles are checked elsewhere
+            window = " ".join(chunk)
+            if window in valid:
+                continue  # an exact, correct name
+            if fuzz.ratio(window.lower(), name.lower()) >= 85:
+                findings.append(result("Flag", post["platform"].title(),
+                                       f'"{window}" looks like a misspelling of "{name}".',
+                                       f'Change "{window}" to "{name}".'))
     return findings

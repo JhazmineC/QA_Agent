@@ -1,0 +1,18 @@
+{
+  "text": "Priya Raman and Theo Grant of Halcyon Compute discuss SAS and Thunderbolt in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep232"
+    },
+    {
+      "text": "Read the Halcyon Compute announcement",
+      "url": "https://halcyon.example/news/ep232"
+    }
+  ],
+  "assets": [
+    "/final/EP232/thumbnail_v3.png"
+  ],
+  "content_id": "EP232",
+  "platform": "webflow"
+}

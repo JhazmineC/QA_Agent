@@ -1,0 +1,18 @@
+{
+  "text": "Lily Johnson and Aiden Brown of Stratosphere Inc discuss CXL and SAS in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep241"
+    },
+    {
+      "text": "Read the Stratosphere Inc announcement",
+      "url": "https://stratosphereinc.example/news/ep241"
+    }
+  ],
+  "assets": [
+    "/final/EP241/thumbnail_v3.png"
+  ],
+  "content_id": "EP241",
+  "platform": "webflow"
+}

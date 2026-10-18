@@ -1,0 +1,18 @@
+{
+  "text": "Elena Petrova and Ravi Kapoor of Summit Dynamics discuss Ethernet and Wi-Fi in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep222"
+    },
+    {
+      "text": "Read the Summit Dynamics announcement",
+      "url": "https://summitdynamics.example/news/ep222"
+    }
+  ],
+  "assets": [
+    "/final/EP222/thumbnail_v3.png"
+  ],
+  "content_id": "EP222",
+  "platform": "webflow"
+}

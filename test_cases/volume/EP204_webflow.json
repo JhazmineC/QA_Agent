@@ -1,0 +1,18 @@
+{
+  "text": "Nora Delgado and Isaac Moreno of Vantage Thermal discuss PCIe and Ethernet in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep204"
+    },
+    {
+      "text": "Read the Vantage Thermal announcement",
+      "url": "https://vantagethermal.example/news/ep204"
+    }
+  ],
+  "assets": [
+    "/final/EP204/thumbnail_v3.png"
+  ],
+  "content_id": "EP204",
+  "platform": "webflow"
+}

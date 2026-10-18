@@ -1,0 +1,18 @@
+{
+  "text": "Hana Takeda and Owen Fletcher of Quarry Labs discuss PCIe and CXL in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep231"
+    },
+    {
+      "text": "Read the Quarry Labs announcement",
+      "url": "https://quarrylabs.example/news/ep231"
+    }
+  ],
+  "assets": [
+    "/final/EP231/thumbnail_v3.png"
+  ],
+  "content_id": "EP231",
+  "platform": "webflow"
+}

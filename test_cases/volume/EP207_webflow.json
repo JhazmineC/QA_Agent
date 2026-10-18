@@ -1,0 +1,18 @@
+{
+  "text": "Mia Chen and Lucas Silva of Vertex Solutions discuss USB and AMD in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep207"
+    },
+    {
+      "text": "Read the Vertex Solutions announcement",
+      "url": "https://vertexsolutions.example/news/ep207"
+    }
+  ],
+  "assets": [
+    "/final/EP207/thumbnail_v3.png"
+  ],
+  "content_id": "EP207",
+  "platform": "webflow"
+}

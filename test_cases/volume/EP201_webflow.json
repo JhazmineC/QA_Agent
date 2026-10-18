@@ -1,0 +1,18 @@
+{
+  "text": "Dana Whitfield and Marcus Lee of Northwind Silicon discuss CXL and NVMe in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep201"
+    },
+    {
+      "text": "Read the Northwind Silicon announcement",
+      "url": "https://northwind.example/news/ep201"
+    }
+  ],
+  "assets": [
+    "/final/EP201/thumbnail_v3.png"
+  ],
+  "content_id": "EP201",
+  "platform": "webflow"
+}

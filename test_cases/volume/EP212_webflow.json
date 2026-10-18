@@ -1,0 +1,18 @@
+{
+  "text": "Dana Whitfield and Marcus Lee of Northwind Silicon discuss NVIDIA and HPE in data centers.",
+  "links": [
+    {
+      "text": "Watch the full conversation",
+      "url": "https://signalpath.example/episodes/ep212"
+    },
+    {
+      "text": "Read the Northwind Silicon announcement",
+      "url": "https://northwind.example/news/ep212"
+    }
+  ],
+  "assets": [
+    "/final/EP212/thumbnail_v3.png"
+  ],
+  "content_id": "EP212",
+  "platform": "webflow"
+}
